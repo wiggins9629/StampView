@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <com.wiggins.stampview.widget.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.wiggins.stampview.widget.StampViewLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/stamp_view_bg"
+        android:orientation="vertical"
+        app:sv_dash_line_bottom="true"
+        app:sv_dash_line_color="@color/white"
+        app:sv_dash_line_gap="5dp"
+        app:sv_dash_line_height="1dp"
+        app:sv_dash_line_left="true"
+        app:sv_dash_line_length="5dp"
+        app:sv_dash_line_margin_bottom="10dp"
+        app:sv_dash_line_margin_left="10dp"
+        app:sv_dash_line_margin_right="10dp"
+        app:sv_dash_line_margin_top="10dp"
+        app:sv_dash_line_right="true"
+        app:sv_dash_line_top="true"
+        app:sv_semicircle_bottom="true"
+        app:sv_semicircle_color="@color/theme_bg"
+        app:sv_semicircle_cover_color="@color/red"
+        app:sv_semicircle_cover_stroke_width="1dp"
+        app:sv_semicircle_gap="5dp"
+        app:sv_semicircle_left="true"
+        app:sv_semicircle_radius="2.5dp"
+        app:sv_semicircle_right="true"
+        app:sv_semicircle_top="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </com.wiggins.stampview.widget.StampViewLinearLayout>
+
+    <com.wiggins.stampview.widget.StampViewLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/stamp_view_bg"
+        android:orientation="vertical"
+        app:sv_semicircle_bottom="true"
+        app:sv_semicircle_color="@color/theme_bg"
+        app:sv_semicircle_cover_color="@color/red"
+        app:sv_semicircle_cover_stroke_width="1dp"
+        app:sv_semicircle_gap="5dp"
+        app:sv_semicircle_left="true"
+        app:sv_semicircle_radius="2.5dp"
+        app:sv_semicircle_right="true"
+        app:sv_semicircle_top="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </com.wiggins.stampview.widget.StampViewLinearLayout>
+
+    <com.wiggins.stampview.widget.StampViewLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/stamp_view_bg"
+        android:orientation="vertical"
+        app:sv_semicircle_bottom="true"
+        app:sv_semicircle_color="@color/theme_bg"
+        app:sv_semicircle_cover_color="@color/red"
+        app:sv_semicircle_cover_stroke_width="1dp"
+        app:sv_semicircle_gap="5dp"
+        app:sv_semicircle_left="false"
+        app:sv_semicircle_radius="2.5dp"
+        app:sv_semicircle_right="false"
+        app:sv_semicircle_top="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </com.wiggins.stampview.widget.StampViewLinearLayout>
+</LinearLayout>

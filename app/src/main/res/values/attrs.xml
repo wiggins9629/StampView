@@ -1,0 +1,47 @@
+<resources>
+
+    <declare-styleable name="StampView">
+        <!-- 半圆之间间距 -->
+        <attr name="sv_semicircle_gap" format="dimension|reference" />
+        <!-- 半圆半径 -->
+        <attr name="sv_semicircle_radius" format="dimension|reference" />
+        <!-- 半圆颜色 -->
+        <attr name="sv_semicircle_color" format="color|reference" />
+        <!-- 半圆覆盖线宽 -->
+        <attr name="sv_semicircle_cover_stroke_width" format="dimension|reference" />
+        <!-- 半圆覆盖颜色 -->
+        <attr name="sv_semicircle_cover_color" format="color|reference" />
+        <!-- 开启顶部半圆曲线 -->
+        <attr name="sv_semicircle_top" format="boolean|reference" />
+        <!-- 开启底部半圆曲线 -->
+        <attr name="sv_semicircle_bottom" format="boolean|reference" />
+        <!-- 开启左边半圆曲线 -->
+        <attr name="sv_semicircle_left" format="boolean|reference" />
+        <!-- 开启右边半圆曲线 -->
+        <attr name="sv_semicircle_right" format="boolean|reference" />
+        <!-- 虚线的长度 -->
+        <attr name="sv_dash_line_length" format="dimension|reference" />
+        <!-- 虚线的间距 -->
+        <attr name="sv_dash_line_gap" format="dimension|reference" />
+        <!-- 虚线的高度 -->
+        <attr name="sv_dash_line_height" format="dimension|reference" />
+        <!-- 虚线的颜色 -->
+        <attr name="sv_dash_line_color" format="color|reference" />
+        <!-- 顶部虚线距离View顶部的距离 -->
+        <attr name="sv_dash_line_top" format="boolean|reference" />
+        <!-- 底部虚线距离View底部的距离 -->
+        <attr name="sv_dash_line_bottom" format="boolean|reference" />
+        <!-- 左侧虚线距离View左侧的距离 -->
+        <attr name="sv_dash_line_left" format="boolean|reference" />
+        <!-- 右侧虚线距离View右侧的距离 -->
+        <attr name="sv_dash_line_right" format="boolean|reference" />
+        <!-- 开启顶部虚线 -->
+        <attr name="sv_dash_line_margin_top" format="dimension|reference" />
+        <!-- 开启底部虚线 -->
+        <attr name="sv_dash_line_margin_bottom" format="dimension|reference" />
+        <!-- 开启左边虚线 -->
+        <attr name="sv_dash_line_margin_left" format="dimension|reference" />
+        <!-- 开启左边虚线 -->
+        <attr name="sv_dash_line_margin_right" format="dimension|reference" />
+    </declare-styleable>
+</resources>
